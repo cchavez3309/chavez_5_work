@@ -203,7 +203,7 @@ background-color:black;
 h1 {
 color:red;
 text-indent:900px;
-font-size:110px;
+font-size:100px;
 }
 
 p {
@@ -217,5 +217,58 @@ top:400px;
 .link1 {
 position:absolute;
 left:220px;
+top:380px;
+}
+
+.link2 {
+position:absolute;
+left:440px;
+top:380px;
+
+}
+
+.link3 {
+position:absolute;
+left:660px;
+top:380px;
+
+}
+
+.link4 {
+position:absolute;
+left:860px;
+top:380px;
+
+}
+
+.link5 {
+position:absolute;
+left:1040px;
+top:380px;
+
+}
+
+.link6 {
+position:absolute;
+left:1220px;
+top:380px;
+
+}
+
+.link7 {
+position:absolute;
+left:1440px;
+top:380px;
+}
+
+.link8 {
+position:absolute;
+left:1660px;
+top:380px;
+}
+
+.link9 {
+position:absolute;
+left:1840px;
 top:380px;
 }
