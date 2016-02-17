@@ -1,0 +1,27 @@
+var mame = "Mike";
+var name2 = "Max";
+var name3 = "Gabi";
+var noun1 = "" ;
+var noun2 = "" ;
+var noun3 = "" ;
+var verb1 = "" ;
+var verb2 = "" ;
+var verb3 = "" ;
+var adj1 = "" ;
+var adj2 = "" ;
+var adj3 = "" ;
+var adv1 = "" ;
+var adv2 = "" ;
+var adv3 = "" ;
+var prep1 = "" ;
+var prep2 = "" ;
+var prep3 = "" ;
+document.write("One day " + name + " woke up confused.");
+document.write(name2 + " asked,what's wrong " + name + "?" )
+document.write(name + " said,Well I  )
+document.write( )
+document.write( )
+document.write( )
+document.write( )
+document.write( )
+document.write( )
