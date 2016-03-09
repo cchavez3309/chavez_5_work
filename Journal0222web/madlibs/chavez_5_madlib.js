@@ -1,0 +1,25 @@
+var name = "Mike";
+var name2 = "Max";
+var name3 = "Gabi";
+var noun1 = "walmart" ;
+var noun2 = "police station" ;
+var noun3 = "business" ;
+var verb1 = "running" ;
+var verb2 = "breaking" ;
+var verb3 = "cleaning" ;
+var adj1 = "large" ;
+var adj2 = "long" ;
+var adj3 = "little" ;
+var adv1 = "swiftly" ;
+var adv2 = "slowly" ;
+var adv3 = "quikly" ;
+document.write("One day " + name + " woke up confused." );
+document.write( name2 + " asked,what's wrong " + name + "?" );
+document.write( name + " said,Well I need a " +noun3+"." );
+document.write( "Why?, asked " + name2 + "to" + name + "when you could go to the " +noun1+".");
+document.write( "Well,because in my dream I was "+ adv2 + " " + verb1 + ",while I was" );
+document.write( "Nice,I was just" + adv3 + verb3 + "so yeah.");
+document.write( "Cool" + adj3 + adj2 + adj1 +);
+document.write( "Basically," +noun1+noun2+noun3+".");
+document.write( );
+

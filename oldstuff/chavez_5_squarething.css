@@ -1,0 +1,35 @@
+.white {
+position: absolute;
+background-color:white;
+width:350px;
+height:600px;
+left:0px;
+top:100px;
+}
+body {
+background-color:black;
+}
+.red {
+position: absolute;
+background-color:red;
+width:350px;
+height:550px;
+right:0px;
+top:200px;
+}
+.blue {
+position: absolute;
+background-color:blue;
+width:250px;
+height:200px;
+left:500px;
+top:500px;
+}
+.green {
+position:absolute;
+background-color:green;
+width:10000px;
+height:100px;
+bottom:0px;
+left:0px;
+}

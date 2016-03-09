@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<link href="chavez_5_review1_webdesign.css" rel="stylesheet" type="text/css">
+<head>
+<style>
+.topstrip {
+        position:absolute;
+        top:0px;
+        width:9999px;
+        height:200px;
+        text-align:middle;
+        backgroud-color:blue;
+}
+
+.middle {
+        position:absolute;
+        width:100px;
+        top:900px;
+        height:200px;
+        background-color:yellow;
+}
+
+.bottom {
+        position:absolute;
+        width:9999px;
+        height:200px;
+        bottom:75%;
+        background-color:red;
+        
+}
+
+</style>
+<title>Review 1</title>
+</head>
+<body>
+<div class="topstrip">This is a Review</div>
+<div class="middle"></div>
+<div class="bottom"></div
+</body>
+</html>

@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+#bkgrnd {
+	background-color:#ff;
+}
+
+#container {
+	hieght:800px;
+	width:;
+
+}

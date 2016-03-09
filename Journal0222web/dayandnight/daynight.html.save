@@ -1,0 +1,21 @@
+<!doctype html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EM" "http://www.w3.org/TR/xhtml1/DE\TD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="daynight.css">
+<script src="daynight.js"></script>
+<title>Day & Night</title>
+</head>
+<body id="Bkgrnd">
+<div onClick="clickOff (this)" id="switch">Switch</div>
+<!--<div onCLick="clickOn(this)" id="switch2">ON</div>-->
+<div onMouseOver="over(this)" onMouseOut="off(this)" id="container">
+<header id="Title">
+DAY
+</header>
+<section id="Menu">
+
+</section>
+</div>
+</body>
+</html>
