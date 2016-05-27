@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style></style>
+<canvas id="myCanvas" width="500" height="500" style="border:1px solid #d3d3d3;"></canvas>
+<script>
+//gradient
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+// Create gradient
+var grd = ctx.createLinearGradient(0,0,0,200);
+grd.addColorStop(0,"#6e75e7");
+grd.addColorStop(1,"#edeeff");
+// Fill with gradient
+ctx.fillStyle = grd;
+ctx.fillRect(0,0,500,500);
+//house
+var c = document.getElementById("myCanvas");
+var ctx=c.getContext("2d");
+ctx.fillStyle = "#423622";
+ctx.rect(150,350,200,100);
+ctx.stroke(); 
+ctx.fill();
+//lawn
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.fillStyle="#05a300";
+ctx.fillRect(0,450,500,100);
+//roof
+ctx.fillStyle="#28231b";
+ctx.beginPath();
+ctx.moveTo(150,350);
+ctx.lineTo(350,350);
+ctx.lineTo(250,225);
+ctx.fill();
+//sun
+ctx.fillStyle = "#efff00";
+ctx.beginPath();
+ctx.arc(95,50,40,0,2*Math.PI);
+ctx.stroke();
+ctx.fill();
+</script>
+</body>
+</html>

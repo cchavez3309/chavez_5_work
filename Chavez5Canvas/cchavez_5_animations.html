@@ -1,0 +1,61 @@
+<!doctype html>
+<html>  
+<head>
+<title>Simple Canvas Example</title>
+<style>
+canvas {
+    border: 3px #CCC solid;
+}
+</style>
+</head>
+ 
+<body>
+<div id="container">
+    <canvas id="myCanvas" height="450" width="450"></canvas>
+</div>
+<script>
+var mainCanvas = document.getElementById("myCanvas");
+var mainContext = mainCanvas.getContext('2d');
+ 
+var canvasWidth = mainCanvas.width;
+var canvasHeight = mainCanvas.height;
+ 
+var angle = 0;
+ 
+var requestAnimationFrame = window.requestAnimationFrame || 
+                            window.mozRequestAnimationFrame || 
+                            window.webkitRequestAnimationFrame || 
+                            window.msRequestAnimationFrame;
+    
+function drawCircle() {
+    mainContext.clearRect(0, 0, canvasWidth, canvasHeight);
+     
+    // color in the background
+    mainContext.fillStyle = "#4b4b4b";
+    mainContext.fillRect( 0, 0, canvasWidth, canvasHeight);
+     
+    // draw the circle
+    mainContext.beginPath();
+    
+                        for (i = 0; i < 100; i ++) {
+                        var radius = 25 + 50 * Math.abs(Math.cos(angle));
+                        mainContext.arc(225, 225, radius, 0, Math.PI * 2, false);
+                        mainContext.closePath();
+                        mainContext.rotate(65);
+                        }
+    var radius = 25 + 150 * Math.abs(Math.cos(angle));
+    mainContext.arc(225,225, radius, 0, Math.PI * 2, false);
+    mainContext.closePath();
+    
+    // color in the circle
+    mainContext.fillStyle = "#0c0791";
+    mainContext.fill();
+      
+    angle += Math.PI / 10;
+     
+    requestAnimationFrame(drawCircle);
+}
+drawCircle();
+</script>
+</body>
+</html>
